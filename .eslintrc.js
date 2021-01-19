@@ -107,7 +107,14 @@ module.exports = {
     "react": {
       "version": "detect"
     },
-    "import/resolver": "webpack",
+    "import/resolver": [
+      "webpack",
+      {
+        "node": {
+          "extensions": [".js",".jsx"]
+        },
+      }
+    ],
     "css-modules": {
       "basePath": "/"
     }
