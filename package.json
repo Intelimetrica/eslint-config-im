@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-im",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Eslint config used across Intelimetrica platforms",
   "main": "index.js",
   "scripts": {
